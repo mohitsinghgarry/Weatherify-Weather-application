@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{>headerLinks}}
+
+<body>
+    
+    {{>navbar}}
+
+    <!-- MainHeader -->
+
+    <div class="container-fluid main_header">
+
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                    <div class="main_header_left align-items-center">
+                        <figure class="error">
+                            <img src="Images/404.png" alt="_"class="img-fluid">
+                        </figure>
+
+                        <h1>{{errorMessage}}</h1>
+                        <a href="/" target="_blank"><button>Go Back</button></a>
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    {{>footer}}
+
+</body>
+
+</html>
