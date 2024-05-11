@@ -1,9 +1,9 @@
-const port = process.env.PORT || 8000
 const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
 const app = express()
-
+require('dotenv').config();
+const port = process.env.PORT || 8000
 const templatePath = path.join(__dirname , '../templates/views')
 const staticPath = path.join(__dirname , '../public') 
 const partialsPath = path.join(__dirname , '../templates/partials')
@@ -32,4 +32,6 @@ app.get('*' , (req , res) => {
     })
 })
 
-app.listen(port)
+app.listen(port,()=>{
+    console.log(`running on port ${port}`);
+})
