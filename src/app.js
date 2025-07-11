@@ -31,5 +31,6 @@ app.get('*' , (req , res) => {
         errorMessage : "Oops!! Page Not Found"
     })
 })
-
-module.exports = app;
+app.listen(port,()=>{
+    console.log(`running on port ${port}`);
+})
