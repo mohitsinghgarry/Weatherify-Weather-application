@@ -17,7 +17,7 @@ Weatherify is a sleek and modern web application providing real-time weather upd
 
 ## 🌐 Live Demo
 
-🔗 [Try Weatherify Now](https://weather-backend-new.onrender.com/)
+🔗 [Try Weatherify Now](https://weatherify-weather-application.onrender.com/)
 
 ---
 
